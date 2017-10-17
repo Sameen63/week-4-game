@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<title>Family Guy Game</title>
+
+</head>
+<body>
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="heading">Family Guy Game</h1>
+			</div>
+		</div>
+
+		
+		<div class="row">
+			<div class="col-lg-6" id="info-par">
+				<h2 class="info">Game Rules</h2>
+					<div class="p1">
+				<p>1) You will be given a random number at the start of the game.</p>
+				<p>2) There are four Characters below. By clicking on a charactor you will add a specific amount of points to your total score.</p>
+				<p>3) You win the game by matching your total score to random number, you lose the game if your total score goes above random number.</p>
+				<p>4) The value of each Charactor is hidden from you until you click on it.</p>
+				<p>5) Each time when the game starts, the game will change the values of each Charactor.</p>
+				<P>6) Good Luck, Have Fun.</P>
+					</div>
+			</div>
+			<div class="col-lg-6" id="whole">
+				<h2 id="gameRand">Number to be Matched</h2>
+				<div class="col-lg-4">
+					<p id="random"></p>
+					
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				<h2 class="score">Your Score: </h2>
+				
+			
+
+			<div class="col-lg-4">
+				<p id="score"></p>
+				
+			</div>
+			</div>
+
+			<div class="col-lg-6">
+				
+				<button id="familyGuy1"><img src="assets/images/stewie.jpg" height="70px" width="70px"></button>
+    			<button id="familyGuy2"><img src="assets/images/peter.jpg" height="70px" width="70px"></button>
+    			<button id="familyGuy3"><img src="assets/images/brain.jpg" height="70px" width="70px"></button>
+    			<button id="familyGuy4"><img src="assets/images/quig.jpg" height="70px" width="70px"></button>
+			</div>
+			
+			<div class="col-lg-6">
+				<div class="col-lg-12" id="winloss">
+					<h3 class="wins"></h3>
+					
+					<h3 class="losses"></h3>
+					
+				</div>
+			</div>
+		</div>
+		<!-- //extra rows -->
+		<div class="row">			
+		</div>		
+		<div class="row">			
+		</div>				
+		<div class="row">			
+		</div>		
+		<div class="row">			
+		</div>
+	</div>
+</body>
+</html>

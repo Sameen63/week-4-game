@@ -1,0 +1,89 @@
+body {
+    background-image: url("../images/background5.jpg");
+}
+
+.p1 {
+    color: #7FFF00;
+}
+
+#whole {
+    padding-left: 20px;
+}
+
+.info {
+    color: #000000;
+    background: #ADFF2F;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#random {
+    background: #FF8C00;
+    color: #000000;
+    text-align: center;
+    padding: 5px 5px 5px 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#info-par {
+    color: black;
+    padding: 5px 5px 5px 5px;
+    font-size: 19px;
+}
+
+
+#gameRand {
+    color: #000000;
+    background: #ADFF2F;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+.heading {
+    color: #00FF00;
+    padding: 5px 5px 5px 0px;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+
+#winloss {
+    background: #FFFF00;
+    color: #000000;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.wins {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.losses {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.score {
+    color: #000000;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #ADFF2F;
+}
+#score {
+    background: #FF8C00;
+    color: #000000;
+    text-align: center;
+    padding: 5px 5px 5px 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
